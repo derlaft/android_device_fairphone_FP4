@@ -15,10 +15,10 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := gauguin
-DEVICE_PATH := device/xiaomi/gauguin
+PRODUCT_RELEASE_NAME := FP4
+DEVICE_PATH := device/fairphone/FP4
 
-$(call inherit-product, device/xiaomi/gauguin/device.mk)
+$(call inherit-product, device/fairphone/FP4/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
@@ -27,11 +27,11 @@ $(call inherit-product, vendor/omni/config/common.mk)
 #PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := gauguin
-PRODUCT_NAME := omni_gauguin
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi 10T Lite
-PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_DEVICE := FP4
+PRODUCT_NAME := omni_FP4
+PRODUCT_BRAND := Fairphone
+PRODUCT_MODEL := FP4
+PRODUCT_MANUFACTURER := Fairphone
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \

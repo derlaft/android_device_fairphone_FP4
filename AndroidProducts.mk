@@ -15,6 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_gauguin.mk
+    $(LOCAL_DIR)/omni_FP4.mk
 
-COMMON_LUNCH_CHOICES := omni_gauguin-eng
+COMMON_LUNCH_CHOICES := omni_FP4-eng
